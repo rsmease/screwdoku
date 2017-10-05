@@ -51,6 +51,7 @@ class SudokuGame
   end
 
   def play_turn
+    board.render
     pos_to_val(get_pos, get_val)
   end
 
